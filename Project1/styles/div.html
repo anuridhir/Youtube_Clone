@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Div Practice</title>
+
+    <style>
+      p {
+        font-family: Arial;
+        margin-top: 0;
+        margin-bottom: 0;
+      }
+      .one-div {
+        margin-right: 12px;
+        display: inline;
+        margin-top: none;
+      }
+
+      .picture {
+        width: 50px;
+        height: 50px;
+        border-radius: 30px;
+        margin-top: 0;
+        vertical-align: 0;
+      }
+
+      .two-div {
+        display: inline-block;
+
+        background-color: pink;
+      }
+      .three-div {
+        display: inline-block;
+      }
+      .buttton {
+        background-color: lightblue;
+        border-radius: 1px;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: bold;
+        border-color: none;
+      }
+
+      .profile {
+        width: 200px;
+        display: inline-block;
+        vertical-align: top;
+        margin-right: 15px;
+      }
+
+      .name {
+        font-size: 18px;
+        font-weight: bold;
+        margin-left: 8px;
+        margin-bottom: 5px;
+      }
+      .profile-picture {
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+        margin-bottom: 12px;
+      }
+      .mutual-friends-row {
+        margin-left: 8px;
+        margin-bottom: 10px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="one-div">
+      <div class="two-div"><img class="picture" src="images.jpg" /></div>
+      <div class="three-div">
+        <p>Oliver</p>
+        <p>The cat</p>
+        <p>Popular</p>
+      </div>
+      <button class="buttton">Follow me</button>
+    </div>
+
+    <div class="profile">
+      <img class="profile-picture" src="images.jpg" alt="minion" />
+      <p class="name">Anuridhi</p>
+      <div class="mutual-friends-row">
+        <img class="mutual-friend-picture" src="images.jpg" alt="anu" />
+        <p class="friend">Mutual friends</p>
+      </div>
+      <button class="buttton">Add</button>
+    </div>
+  </body>
+</html>

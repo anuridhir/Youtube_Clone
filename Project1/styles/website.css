@@ -1,0 +1,134 @@
+.add-button {
+  background-color: yellow;
+  color: black;
+  margin-right: 8px;
+  margin-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 16px;
+  padding-right: 16px;
+  vertical-align: top;
+
+  cursor: pointer;
+  transition: 0.15s;
+  font-style: bold;
+
+  font-weight: bold;
+  border-color: black;
+  border-radius: 10px;
+}
+
+.add-button:hover {
+  opacity: 0.6;
+}
+
+.add-button:active {
+  opacity: 0.7;
+}
+
+.buy-button {
+  background-color: yellow;
+  color: black;
+  margin-right: 8px;
+  margin-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 16px;
+  padding-right: 16px;
+  vertical-align: top;
+
+  cursor: pointer;
+  transition: 0.15s;
+  font-style: bold;
+
+  font-weight: bold;
+  border-color: black;
+  border-radius: 10px;
+}
+
+.buy-button:hover {
+  opacity: 0.6;
+}
+
+.buy-button:active {
+  opacity: 0.7;
+}
+.exo {
+  background-color: black;
+  color: rgb(243, 209, 19);
+  margin-right: 8px;
+  margin-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 16px;
+  padding-right: 16px;
+  vertical-align: top;
+
+  cursor: pointer;
+  color: bold;
+  transition: 0.1s;
+  font-style: bolder;
+  border-radius: 15px;
+  border-color: rgb(243, 209, 19);
+}
+.exo:hover {
+  box-shadow: 5px 5px 5px rgb(238, 121, 121);
+  opacity: 0.9;
+}
+
+.exo:active {
+  background-color: bold;
+}
+
+.anu {
+  background-color: green;
+  color: black;
+  margin-right: 8px;
+  margin-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 16px;
+  padding-right: 16px;
+  vertical-align: top;
+
+  cursor: pointer;
+  color: bold;
+  transition: 0.1s;
+  font-style: bolder;
+  border-radius: 10px;
+  border-color: black;
+}
+.anu:hover {
+  box-shadow: 5px 5px 5px rgb(37, 36, 36);
+  opacity: 0.9;
+}
+
+.anu:active {
+  opacity: 0.4;
+}
+
+.click {
+  background-color: green;
+  color: black;
+  margin-right: 8px;
+  margin-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 16px;
+  padding-right: 16px;
+  vertical-align: top;
+
+  cursor: pointer;
+  color: bold;
+  transition: 0.1s;
+  font-style: bolder;
+  border-radius: 10px;
+  border-color: black;
+}
+.click:hover {
+  opacity: 0.9;
+}
+
+.click:active {
+  opacity: 0.3;
+}

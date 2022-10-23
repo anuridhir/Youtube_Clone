@@ -1,0 +1,86 @@
+<head>
+  <title>CSS-position</title>
+</head>
+<body style="height: 4000px; padding-top: 60px; padding-left: 65px">
+  <div
+    style="
+      background-color: black;
+      color: white;
+      position: fixed;
+      top: 5px;
+      left: 50px;
+      right: 50px;
+      height: 50px;
+      z-index: 1;
+    "
+  >
+    header
+  </div>
+
+  <div
+    style="
+      position: absolute;
+      background-color: red;
+      color: white;
+
+      right: 70px;
+      top: 40px;
+      z-index: 2;
+    "
+  >
+    absolute
+  </div>
+  <div
+    style="
+      background-color: green;
+      color: white;
+      position: fixed;
+      top: 55px;
+      left: 0;
+      bottom: 0;
+      width: 70px;
+    "
+  >
+    side bar
+  </div>
+
+  <div
+    style="
+      background-color: cyan;
+      width: 60px;
+      position: fixed;
+      top: 55px;
+      bottom: 0;
+      right: 0;
+    "
+  >
+    right br
+  </div>
+
+  <div
+    style="
+      background-color: lightblue;
+      height: 200px;
+      width: 200px;
+      position: relative;
+    "
+  >
+    div1
+  </div>
+  <div style="background-color: lightpink; width: 200px; height: 200px">
+    div2
+
+    <div
+      style="
+        position: absolute;
+        background-color: red;
+        color: white;
+
+        right: 70px;
+        top: 40px;
+      "
+    >
+      absolute
+    </div>
+  </div>
+</body>
